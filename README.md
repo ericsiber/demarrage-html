@@ -17,3 +17,5 @@ L'image est disponible à l'[adresse suivante](https://rhroadtour.files.wordpres
 
 - Etape 4 : mettre en ligne sur votre dépôt distant et passer la page au validateur [http://validator.w3.org/]()
 - Etape 5 : itérer pour améliorer votre page sur la base du résultat de la validation précédent
+- Etape 6 : utiliser les balises sémantiques &lt;header&gt; , &lt;section&gt; et &lt;footer&gt; de façon appropriée sur le document afin de renforcer sa structuration
+- Etape 7 : valoriser les liens de navigation externes par une balise sémantique appropriée
