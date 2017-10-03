@@ -1,0 +1,13 @@
+table, td, th { border: 1px solid gray; }
+
+.centre {
+	text-align: center;
+}
+
+.droite {
+	text-align: right;
+}
+
+.bas {
+	vertical-align: bottom;
+}
