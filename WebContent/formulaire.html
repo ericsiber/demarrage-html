@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Mise en forme de formulaire HTML">
+  	<meta name="keywords" content="HTML,Formulaire">
+  	<meta name="author" content="Eric Siber">
+  	<title>Formulaire mis en forme</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  	<form action="resultat.html" method="get">
+  		<fieldset>
+  			<legend>Client</legend>
+	  		<div id="entete">
+	  			<div class="civilite">
+	  				<label>Civilité</label>
+	  			</div>
+	  			<div class="identite">
+	  				<label for="identite">Nom / Prénom</label>
+	  			</div>
+	  			<div class="courriel">
+	  				<label for="courriel">Courriel</label>
+	  			</div>
+	  			<div class="adresse">
+	  				<label for="adresse">Adresse</label>
+	  			</div>
+	  			<div class="cpville">
+	  				<label for="cpville">No Postal / Localité</label>
+	  			</div>
+	  			<div class="pays">
+	  				<label for="pays">Pays</label>
+	  			</div>
+	  			<div class="plateformes">
+	  				<label>Plateforme(s)</label>
+	  			</div>
+	  			<div class="applications">
+	  				<label>Application(s)</label>
+	  			</div>
+	  		</div>
+	  		<div id="saisie">
+	  			<div class="civilite">
+	  				<input type="radio" id="mlle" name="civilite" value="mlle"><label for="mlle">Mademoiselle</label>
+	  				<input type="radio" id="mme" name="civilite" value="mme" checked="checked"><label for="mme">Madame</label>
+	  				<input type="radio" id="m" name="civilite" value="m"><label for="m">Monsieur</label>
+	  			</div>
+	  			<div class="identite">
+	  				<input type="text" id="identite" name="identite" size="40" required="required" placeholder="Prénom NOM">
+	  			</div>
+	  			<div class="courriel">
+	  				<input type="email" id="courriel" name="courriel" required="required">
+	  			</div>
+	  			<div class="adresse">
+	  				<textarea rows="3" cols="40" id="adresse" name="adresse"></textarea>
+	  			</div>
+	  			<div class="cpville">
+	  				<input type="text" id="cpville" name="cp" size="4" maxlength="4" required="required">
+	  				<input type="text" name="ville" value="Lausanne" size="20" required="required">
+	  			</div>
+	  			<div class="pays">
+	  				<select id="pays" name="pays">
+	  					<option value="de">Allemagne</option>
+	  					<option value="fr">France</option>
+	  					<option value="sw" selected="selected">Suisse</option>
+	  					<option value="ita">Italie</option>
+	  				</select>
+	  			</div>
+	  			<div class="plateformes">
+	  				<input type="checkbox" id="windows" value="windows" checked="checked"><label for="windows">Windows</label>
+	  				<input type="checkbox" id="mac" value="mac" checked="checked"><label for="mac">Macintosh</label>
+	  				<input type="checkbox" id="unix" value="unix"><label for="unix">Unix</label>
+	  			</div>
+	  			<div class="applications">
+	  				<select id="applications" name="applications" multiple="multiple" size="5">
+	  					<option value="desktop" selected="selected">Bureautique</option>
+	  					<option value="dao">DAO</option>
+	  					<option value="stat">Statistiques</option>
+	  					<option value="sgbd">SGBD</option>
+	  					<option value="internet" selected="selected">Internet</option>
+	  				</select>
+	  			</div>
+	  		</div>
+	  	  </fieldset>
+	  	  <div class="boutons">
+	  	  	<input type="submit" value="Soumettre formulaire">
+	  	  	<input type="reset" value="Effacer">
+	  	  </div>
+	  </form>
+  </body>
+ </html>

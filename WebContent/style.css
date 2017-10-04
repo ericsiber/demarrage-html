@@ -1,5 +1,37 @@
 table, td, th { border: 1px solid gray; }
 
+fieldset {
+	width: 600px;
+	background-color: #fff99d;
+}
+
+legend {
+	font-weight: bold;
+	background-color: yellow;
+}
+
+#entete label {
+	font-weight: bold;
+}
+
+#entete {
+	width: 200px; 
+	float: left; 
+	display: block;
+}
+
+#saisie {
+	width: 400px; 
+	float: left; 
+	display: block;
+}
+
+.boutons {
+	width: 550px;
+	padding-top: 10px;
+	text-align: right;
+}
+
 .centre {
 	text-align: center;
 }
@@ -10,4 +42,16 @@ table, td, th { border: 1px solid gray; }
 
 .bas {
 	vertical-align: bottom;
+}
+
+.civilite, .identite, .courriel, .cpville, .pays, .plateformes {
+	height: 25px;
+}
+
+.adresse {
+	height: 55px;
+}
+
+.applications {
+	height: 75px;
 }
